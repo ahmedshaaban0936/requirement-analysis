@@ -87,3 +87,14 @@ Requirements in software development can be categorized into **Functional Requir
 - **Data Consistency and Durability:**
   - The hotel booking and user data must be consistent across all services and stored in reliable databases such as Cassandra for historical data and Redis for caching.
 
+## Use Case Diagrams
+
+### What are Use Case Diagrams?
+Use Case Diagrams are a graphical representation of the interactions between users (actors) and a system. They visually depict the system's functionality from the user's perspective. Use Case Diagrams help clarify the requirements and the relationships between users and system components, offering a clear overview of what the system should do.
+
+### Benefits of Use Case Diagrams:
+- **Simplified Communication:** They make it easier to communicate system functionalities to both technical and non-technical stakeholders.
+- **Requirement Clarification:** They help ensure that all system requirements are understood and agreed upon by stakeholders.
+- **Identify System Boundaries:** They highlight what is inside and outside the system’s scope, aiding in the design process.
+
+Below is the Use Case Diagram for the Hotel Booking System, showing key actors and their interactions with the system.
