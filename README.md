@@ -33,3 +33,24 @@ Requirement Analysis is a foundational phase in the Software Development Life Cy
    - Requirement analysis facilitates better communication between stakeholders, including clients, end-users, and the development team. It ensures that the system is designed to meet user needs and business objectives, increasing the likelihood of project success.
 
 Accurate and thorough requirement analysis is vital to building a successful software system that satisfies user expectations, is delivered on time, and is within budget.
+
+## Key Activities in Requirement Analysis
+
+Requirement analysis is a process that involves several key activities to ensure that the system being developed meets the needs of the stakeholders. The five key activities involved in Requirement Analysis are:
+
+- **Requirement Gathering:**
+  - In this initial step, information is collected from stakeholders (clients, users, and business teams) using techniques like interviews, surveys, and workshops. The goal is to understand what the system is expected to achieve.
+
+- **Requirement Elicitation:**
+  - This activity refines and elaborates on the gathered requirements. It involves clarifying and prioritizing the requirements through various techniques such as prototyping and brainstorming sessions to ensure they are actionable and complete.
+
+- **Requirement Documentation:**
+  - During this phase, the gathered and elicited requirements are formally documented. The documentation may include use cases, user stories, functional specifications, and other relevant details that describe how the system should function.
+
+- **Requirement Analysis and Modeling:**
+  - This involves organizing and structuring the requirements in a way that provides a clear understanding of the system’s functionality. It includes creating models such as use case diagrams, data flow diagrams, and entity-relationship diagrams to represent the requirements visually.
+
+- **Requirement Validation:**
+  - The final activity is to review and validate the documented requirements with stakeholders to ensure that they are accurate, feasible, and complete. This step helps to avoid misunderstandings or missed requirements and ensures that the system will meet the users' needs.
+
+These activities help create a clear understanding of what the system needs to do, ensuring that the development process stays on track and delivers a product that meets expectations.
