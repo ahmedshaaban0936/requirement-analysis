@@ -101,3 +101,35 @@ Below is the Use Case Diagram for the Hotel Booking System, showing key actors a
 
 
 ![Use Case Diagram](alx-booking-uc.png)
+
+
+## Acceptance Criteria
+
+### What is Acceptance Criteria?
+Acceptance Criteria are specific conditions that a product or feature must meet in order to be considered complete and acceptable by stakeholders. These criteria define the expected behavior and outcomes of the feature or system and help to ensure that the delivered solution meets the agreed-upon requirements.
+
+### Importance of Acceptance Criteria in Requirement Analysis:
+- **Clarity:** Acceptance criteria provide a clear and shared understanding of what the feature should do, leaving little room for ambiguity.
+- **Validation:** They are used to validate that the functionality works as expected and meets the business objectives.
+- **Testable:** Acceptance criteria provide a basis for writing test cases and performing quality assurance.
+- **Alignment:** They ensure that the development team and stakeholders are aligned in terms of expectations and project goals.
+
+### Example: Acceptance Criteria for the Checkout Feature in the Hotel Booking System
+
+Here is an example of acceptance criteria for the **Checkout** feature in the hotel booking system:
+
+**Feature: Checkout Process for Booking**
+
+**Acceptance Criteria:**
+1. **User is logged in**: The customer must be logged into their account before they can proceed with checkout.
+2. **Room Availability**: The system must check if the selected hotel room is still available for the chosen dates before proceeding to payment.
+3. **Payment Gateway Integration**: 
+   - The system must integrate with the payment gateway (e.g., PayPal, Credit Card) to securely process the payment.
+   - The payment gateway must return a success or failure response within 5 seconds.
+4. **Error Handling**: If payment fails, the system must display an error message and allow the user to retry or choose a different payment method.
+5. **Booking Confirmation**: Once payment is successfully processed, the system must display a confirmation message, including the booking reference number, hotel details, and dates.
+6. **Email Notification**: After checkout, the system must send a booking confirmation email to the customer with the booking details.
+7. **Refund Policy Agreement**: The system must prompt the user to agree to the hotel’s refund policy before proceeding with payment.
+
+These criteria ensure that the checkout feature functions correctly and meets user expectations for booking a hotel room.
+
