@@ -98,3 +98,4 @@ Use Case Diagrams are a graphical representation of the interactions between use
 - **Identify System Boundaries:** They highlight what is inside and outside the system’s scope, aiding in the design process.
 
 Below is the Use Case Diagram for the Hotel Booking System, showing key actors and their interactions with the system.
+![Use Case Diagram](alx-booking-uc.png)
