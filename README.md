@@ -54,3 +54,36 @@ Requirement analysis is a process that involves several key activities to ensure
   - The final activity is to review and validate the documented requirements with stakeholders to ensure that they are accurate, feasible, and complete. This step helps to avoid misunderstandings or missed requirements and ensures that the system will meet the users' needs.
 
 These activities help create a clear understanding of what the system needs to do, ensuring that the development process stays on track and delivers a product that meets expectations.
+
+## Types of Requirements
+
+Requirements in software development can be categorized into **Functional Requirements** and **Non-functional Requirements**. These requirements define what the system should do and how well it should perform.
+
+### Functional Requirements
+**Functional requirements** describe the specific features and functions that the system must perform. These are the core features that directly support the user’s needs and interactions with the system.
+
+**Examples for a Hotel Booking System:**
+- **User Registration and Authentication:**
+  - The system must allow users to create accounts, log in, and securely authenticate using credentials such as email and password.
+- **Hotel Search Functionality:**
+  - Customers should be able to search for available hotels based on various criteria like location, price range, amenities, and check-in/check-out dates.
+- **Booking and Payment:**
+  - Customers must be able to book a hotel room and process payments securely using a third-party payment service (e.g., credit card, PayPal).
+- **Hotel Management:**
+  - Hotel managers must be able to add, update, or delete hotel listings, update room availability, and set pricing.
+
+### Non-functional Requirements
+**Non-functional requirements** define how the system performs and its operational characteristics. These are qualities that determine the system’s performance, security, reliability, and scalability.
+
+**Examples for a Hotel Booking System:**
+- **Performance:**
+  - The system should be able to handle up to 1,000 concurrent users without degradation in performance, and search results should be returned in under 2 seconds.
+- **Scalability:**
+  - The system must be designed to scale horizontally, with the ability to add more servers as the user base grows.
+- **Security:**
+  - User data, including payment information, must be encrypted and stored securely to prevent unauthorized access or data breaches.
+- **Availability:**
+  - The system should have a 99.9% uptime, ensuring it is available most of the time and that any downtime for maintenance is minimal.
+- **Data Consistency and Durability:**
+  - The hotel booking and user data must be consistent across all services and stored in reliable databases such as Cassandra for historical data and Redis for caching.
+
